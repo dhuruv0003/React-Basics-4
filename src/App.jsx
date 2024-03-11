@@ -1,6 +1,6 @@
 
 import './App.css'
-import Product from './components2/Product'
+import Product from './components2/Product.jsx';
 
 export default function App() {
   const products = [
@@ -33,8 +33,7 @@ export default function App() {
     <div>
       <Product items={products}></Product>
     </div>
-
-  )
+  );
 }
 
 
