@@ -2,33 +2,39 @@
 import './App.css'
 import Product from './components2/Product'
 
-export default function App(){
-    const products=[
-      {
-        id:'p1',
-        title:'Milk',
-        price:33,
-        date:new Date(2024,12,24)
-      },
-      {
-        id:'p2',
-        title:'Milk',
-        price:33,
-        date:new Date(2024,12,24)
-      },
-      {
-        id:'p1',
-        title:'Milk',
-        price:33,
-        date:new Date(2024,12,24)
-      },
-      {
-        id:'p1',
-        title:'Milk',
-        price:33,
-        date:new Date(2024,12,24)
-      },
-    ]
+export default function App() {
+  const products = [
+    {
+      id: 'p1',
+      title: 'Milk',
+      price: 33,
+      date: new Date(2024, 2, 24)
+    },
+    {
+      id: 'p2',
+      title: 'Toast',
+      price: 80,
+      date: new Date(2024, 1, 24)
+    },
+    {
+      id: 'p3',
+      title: 'Atta',
+      price: 330,
+      date: new Date(2024, 2, 2)
+    },
+    {
+      id: 'p4',
+      title: 'Tea Pouch',
+      price: 80,
+      date: new Date(2024, 1, 4)
+    },
+  ]
+  return (
+    <div>
+      <Product items={products}></Product>
+    </div>
+
+  )
 }
 
 
