@@ -1,5 +1,8 @@
 .ItemDate{
     display: flex;
+    border-radius: .4rem;
     gap: 1rem;
     background-color: blue;
+    padding: 1rem;
+    border: 1rem solid black;
 }

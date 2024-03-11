@@ -1,6 +1,9 @@
 .item{
     color:red;
     display: flex;
-    background-color: #fff;
+    background-color: #f1d6d6;
     line-height: 1;
+    border-radius: 1rem;
+    padding: .4rem;
+    border: 10px solid red;
 }
