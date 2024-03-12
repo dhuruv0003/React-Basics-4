@@ -1,6 +1,8 @@
 
 import './App.css'
 import Product from './components2/Product.jsx';
+import NewProduct from './components2/NewProduct.jsx'
+
 
 export default function App() {
   const products = [
@@ -31,6 +33,7 @@ export default function App() {
   ]
   return (
     <div className='app'>
+      <NewProduct></NewProduct>
       <Product items={products}></Product>
     </div>
   );
