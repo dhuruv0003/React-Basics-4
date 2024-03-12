@@ -10,6 +10,7 @@ export default function ProductItem(props) {
             <div className='product-item-desc'>
                 <h2>{props.title}</h2>
             </div>
+            <button>Add To Cart</button>
         </div>
     );
 }

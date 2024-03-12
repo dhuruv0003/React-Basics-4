@@ -24,7 +24,7 @@ export default function App() {
     },
     {
       id: 'p4',
-      title: 'Tea Pouch',
+      title: 'Tea',
       price: 80,
       date: new Date(2024, 1, 4)
     },
