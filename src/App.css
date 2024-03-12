@@ -5,6 +5,7 @@
   text-align: center;
 }
 .app{
+  width: fit-content;
   border: 1px solid black;
   padding : 1rem;
   background-color: white;
