@@ -1,0 +1,43 @@
+.new-product-form{
+    background-color: #6b1bff;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.7rem;
+    border: 0.1rem solid red;
+    box-shadow: 0.1rem 0.1rem 0.4rem red;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items:baseline;
+    padding-left: 25%;
+}
+.new-product-title {
+    display: flex;
+    gap: 1rem;
+}
+.new-product-title input{
+    background-color: black;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.4rem;
+}
+.new-product-date {
+    display: flex;
+    gap: 1rem;
+}
+.new-product-date input{
+    background-color: black;
+    border-radius: 0.5rem;
+    width: 10rem;
+    padding-inline: 10%;
+    border: none;
+}
+.new-product-btn button{
+   margin-left: 10%;
+}
