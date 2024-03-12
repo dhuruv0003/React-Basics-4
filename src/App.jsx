@@ -34,7 +34,7 @@ export default function App() {
       <Product items={products}></Product>
     </div>
   );
-}
+} 
 
 
 
