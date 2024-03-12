@@ -2,9 +2,14 @@ import { useState } from 'react'
 import './ProductForm.css'
 
 export default function ProductForm() {
-    let [input,setinput]=useState("")
+    const ob={
+        title:'',
+        date:''
+    } 
+    let [input,setinput]=useState(ob)
     function changehandler(event){
-        setinput(event.target.value)
+        setinput({...input,title:event.target.value})
+        
     }
     return (
         <form action="">
@@ -12,7 +17,7 @@ export default function ProductForm() {
             <div className="new-product-form">
             <div className="form-container"><div className="new-product-title">
                     <label htmlFor="title">Title</label>
-                    <input type="text" name="title" onChange={changehandler} />
+                    <input type="text" name="title" onChange={changehandler} />{input.title}
                 </div>
                 <div className="new-product-date">
                     <label htmlFor="date">Date</label>
