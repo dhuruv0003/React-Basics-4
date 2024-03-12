@@ -30,7 +30,7 @@ export default function App() {
     },
   ]
   return (
-    <div>
+    <div className='app'>
       <Product items={products}></Product>
     </div>
   );

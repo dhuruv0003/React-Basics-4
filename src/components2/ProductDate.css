@@ -1,0 +1,10 @@
+.product-date{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 3%;
+    text-align: center;
+    width: 9rem;
+    border-radius: 1rem;
+}
