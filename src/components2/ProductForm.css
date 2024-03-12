@@ -15,7 +15,7 @@
     gap: 0.5rem;
     justify-content: center;
     align-items:baseline;
-    padding-left: 25%;
+    padding-inline: 3rem;
 }
 .new-product-title {
     display: flex;
@@ -35,9 +35,9 @@
     background-color: black;
     border-radius: 0.5rem;
     width: 10rem;
-    padding-inline: 10%;
+    padding-inline: .4rem;
     border: none;
 }
 .new-product-btn button{
-   margin-left: 10%;
+   margin-left: 0.1rem;
 }
