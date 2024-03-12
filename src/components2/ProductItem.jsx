@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ProductDate from './ProductDate'
 
 import './ProductItem.css'
