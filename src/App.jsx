@@ -2,7 +2,7 @@
 import './App.css'
 import Product from './components2/Product.jsx';
 import NewProduct from './components2/NewProduct.jsx'
-
+import Form from './form.jsx';
 
 export default function App() {
   const products = [
@@ -31,13 +31,17 @@ export default function App() {
       date: new Date(2024, 1, 4)
     },
   ]
+  function onsubmithandler(data) {
+    console.log(data);
+  } 
   return (
     <div className='app'>
+      {/* <Form onSubmit={onsubmithandler}></Form> */}
       <NewProduct></NewProduct>
       <Product items={products}></Product>
     </div>
   );
-} 
+}
 
 
 
