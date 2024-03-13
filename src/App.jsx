@@ -33,13 +33,16 @@ export default function App() {
   ]
   function onsubmithandler(data) {
     console.log("inside app.js");
-    console.log("data is ",data);
+    console.log(data);
+
   } 
+  // onsubmithandler bahar child se aye data ko print karayega 
   return (
     <div className='app'>
       {/* <Form onSubmit={onsubmithandler}></Form> */}
       <NewProduct onsubmit={onsubmithandler}></NewProduct>
       <Product items={products}></Product>
+    
     </div>
   );
 }

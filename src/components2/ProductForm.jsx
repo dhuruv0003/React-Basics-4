@@ -33,7 +33,7 @@ export default function ProductForm(props) {
             title: newtitle,
             date: newdate
         }
-        
+        // parent ke props me data ko bhj diya 
         props.onnewsubmit(obj);
 
     //After adding we want to have empty input again
