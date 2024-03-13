@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './ProductForm.css'
 
-export default function ProductForm() {
+export default function ProductForm(props) {
     // let ob = {
     //     newtitle: "",
     //     newdate: ""
@@ -33,7 +33,9 @@ export default function ProductForm() {
             title: newtitle,
             date: newdate
         }
-        console.log(obj);
+        
+        props.onnewsubmit(obj);
+
     //After adding we want to have empty input again
     //so to do this setrmpty to both
         setdate("");
