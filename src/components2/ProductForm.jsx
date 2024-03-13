@@ -3,14 +3,13 @@ import './ProductForm.css'
 
 export default function ProductForm() {
     // let ob = {
-    //     newtitle: '',
-    //     newdate: ''
+    //     newtitle: "",
+    //     newdate: ""
     // }
     // let [input, setinput] = useState(ob)
     // function titlehandler(event) {
-    //     setinput((newinp) => {
-    //         return ({ ...newinp, newtitle: event.target.value })
-    //     })  
+    //     setinput({ ...input, newtitle: event.target.value })
+    //    
     // }
     // function datehandler(event) {
     //     setinput((newdate) => {
